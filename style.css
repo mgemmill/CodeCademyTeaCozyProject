@@ -1,0 +1,123 @@
+body {
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+    text-align: center;
+}
+h2{
+    opacity: 0.9;
+}
+h4{
+    opacity: 0.9;
+}
+figcaption{
+    font-weight: bold;
+}
+.header .HeaderContainer {
+    background-color: black;
+    padding-bottom: 69px;
+    border-bottom: 1px solid seashell;
+}
+.header .Logo {
+    padding-left: 10px;
+    max-height: 50px;
+    float: left;
+}
+.header ul {
+    float: right;
+    text-decoration: underline; 
+    list-style: none;
+    color: seashell;
+    flex-direction: row;
+    justify-content: end;
+    display: inline-flex;
+    padding-right: 10px;
+}
+.nav{
+    padding-left: 25px;
+}
+.Background {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*9w9c5*_ga*MTQzNDU2MTc3OC4xNTg0NDkyMTg5*_ga_3LRZM6TM9L*MTcxNzE4NTY5MC4xNTIuMS4xNzE3MTg1NzA3LjQzLjAuMA..");
+    background-size: cover;
+    height: 700px; 
+    width:1200px;
+    background-attachment:scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
+.overlay {
+    position: relative;
+    align-self: center;
+    background-color: black;
+    display: inline-block;
+    width: 1200px;
+    height: 100px;
+    vertical-align: center;
+    margin-top: 300px;
+    opacity: 0.9;
+}
+#mission{
+    margin-top: 3px;
+    margin-bottom: 18px;
+}
+#tags{
+    margin-top: 0px;
+}
+.TOMContainer {
+    padding-top: 40px;
+} 
+.OfferingsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 215px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    max-width: 1000px;
+    opacity: 0.9;
+}
+.product {
+    text-align: center;
+}
+figcaption {
+    padding-top: 10px;
+    opacity: 0.9;
+}
+figure {
+    margin: 15px;
+}
+.LocationContainer {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*to1qh4*_ga*MTQzNDU2MTc3OC4xNTg0NDkyMTg5*_ga_3LRZM6TM9L*MTcxNzE4MDkxMy4xNTEuMS4xNzE3MTgzNzQ4LjUzLjAuMA..");
+    height: 555px; 
+    width: 1200px;
+    align-content: center;
+    align-self: center;
+    margin-bottom: 5px;
+    margin-left: 115px;
+    font-weight: normal;
+    
+}
+.content{
+    background-color: black;
+    width: 300px;
+    display: inline-block;
+    opacity: 1;
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+.content h4{
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-weight: lighter;
+}
+.ContactContainer{
+    background-color: black;
+    height: 200px;
+}
+footer{
+    margin-left: 20px;
+    text-align: left;
+    opacity: 0.9;
+}
